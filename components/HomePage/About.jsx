@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation'
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { motion } from "framer-motion"
-import { itemFromLeft, itemFromRight } from '../motionStyles/motions'
+import { itemFromBottom, itemFromLeft, itemFromRight } from '../motionStyles/motions'
 
 
 function About() {
@@ -29,6 +29,7 @@ function About() {
                 <div className="md:flex items-center -mx-10 lg:space-x-10">
                     <motion.div
                         // variants={itemFromLeft}
+                        variants={itemFromBottom}
                         initial='hidden'
                         whileInView='visible'
                         exit='hidden'
@@ -42,6 +43,7 @@ function About() {
 
                     <motion.div
                         // variants={itemFromRight}
+                        variants={itemFromBottom}
                         initial='hidden'
                         whileInView={'visible'}
                         exit={'hidden'}

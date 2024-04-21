@@ -120,13 +120,13 @@ function page() {
     const navigateToWhatsapp = () => {
         // dispatch(setActiveTab({ activeTab: 'CONTACT US' }))
         // router.push('https://wa.me/918156866089 ')
-        window.open(`https://wa.me/918156866089?text=Hello Bonvo! I would like to know more about this`)
+        window.open(`https://wa.me/918156866089?text=Hello Bonvo! I would like to know more about your service`)
 
     }
 
     return (
         <div className='min-h-screen flex flex-col justify-center items-center my-20 font-mono text relative'>
-            <input type="text" className='w-[50%] px-2 py-1 rounded-lg font-serif my-5 mb-16' placeholder='Search for item' onChange={(e) => setSearch(e.target.value)} />
+            <input type="text" className='w-[50%] px-2 py-1 rounded-lg font-serif md:mt-16 md:mb-5' placeholder='Search for item' onChange={(e) => setSearch(e.target.value)} />
             <div className='w-[80%] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 '>
                 {
                     !search ? items?.map((item, index) => (

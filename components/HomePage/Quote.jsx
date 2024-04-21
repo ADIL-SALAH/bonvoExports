@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { motion } from 'framer-motion'
-import { itemFromLeft, itemFromRight } from '../motionStyles/motions'
+import { itemFromBottom, itemFromLeft, itemFromRight } from '../motionStyles/motions'
 
 
 function Quote() {
@@ -21,7 +21,8 @@ function Quote() {
     return (
         <div className='h-96 flex md:flex-row flex-col justify-around items-center lg:p-10 p-10 w-screen'>
             <motion.div
-                variants={itemFromLeft}
+                // variants={itemFromLeft}
+                variants={itemFromBottom}
                 initial='hidden'
                 whileInView={'visible'}
                 exit={'hidden'}
@@ -30,7 +31,8 @@ function Quote() {
                 <h4>Get Your Quote or Call: +91 8137866089</h4>
             </motion.div>
             <motion.div
-                variants={itemFromRight}
+                // variants={itemFromLeft}
+                variants={itemFromBottom}
                 initial='hidden'
                 whileInView={'visible'}
                 exit={'hidden'}>

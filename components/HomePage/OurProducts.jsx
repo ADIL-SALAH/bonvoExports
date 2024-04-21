@@ -57,7 +57,7 @@ function OurProducts() {
             <h1 className='text-center font-bold tracking-[1em] underline underline-offset-8 text-slate-200 md:text-lg '>Our Products</h1>
 
             <motion.div
-                // variants={itemFromBottom}
+                variants={itemFromBottom}
                 initial='hidden'
                 whileInView={'visible'}
                 className='h-full w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10  md:p-5 '>

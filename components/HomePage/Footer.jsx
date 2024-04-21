@@ -63,10 +63,10 @@ function Footer() {
                         <b>Office Address:</b> No:321, 2nd floor,<br /> Kooriyad, Malappuram, Kerala, India - 676306
                     </li>
                     <li className='space-x-3'>
-                        <FontAwesomeIcon icon={faPhone} /> <span>+91 81568 66089</span>
+                        <FontAwesomeIcon icon={faPhone} /> <span><a href="tel:+91 81378 66089">+91 81378 66089,</a><a href="tel:+91 81568 66089 ">+91 81568 66089 </a></span>
                     </li>
                     <li className='space-x-3'>
-                        <FontAwesomeIcon icon={faEnvelope} /> <span>+91 81378 66089</span>
+                        <FontAwesomeIcon icon={faEnvelope} /> <a href='mailto: bonvoexports@gmail.com'>+91 81378 66089</a>
                     </li>
                     <div className='flex space-x-5 text-lg'>
                         <a href="https://www.instagram.com/bonvo_exports?igsh=MXJ2MDc1NGF6MjdheQ==" className='hover:bg-blue-950 hover:text-white rounded-full px-1  '>
