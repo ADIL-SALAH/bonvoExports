@@ -57,41 +57,10 @@ function page() {
             img: '/home/spices2.jpg'
         },
         {
-            title: 'mango',
-            img: '/home/mango.jpg'
-        },
-        {
-            title: 'rice flakes',
+            title: 'puffened rice flakes (pori avil)',
             img: '/riceFlakes.jpeg'
         },
-        {
-            title: 'lemon',
-            img: '/home/lemon.jpg'
-        },
-        {
-            title: 'spices',
-            img: '/home/spices2.jpg'
-        },
-        {
-            title: 'mango',
-            img: '/home/mango.jpg'
-        },
-        {
-            title: 'coconut',
-            img: '/home/coconut.jpg'
-        },
-        {
-            title: 'lemon',
-            img: '/home/lemon.jpg'
-        },
-        {
-            title: 'spices',
-            img: '/home/spices2.jpg'
-        },
-        {
-            title: 'mango',
-            img: '/home/mango.jpg'
-        },
+
 
     ]
 
@@ -127,7 +96,7 @@ function page() {
     return (
         <div className='min-h-screen flex flex-col justify-center items-center my-20 font-mono text relative'>
             <input type="text" className='w-[50%] px-2 py-1 rounded-lg font-serif md:mt-16 md:mb-5' placeholder='Search for item' onChange={(e) => setSearch(e.target.value)} />
-            <div className='w-[80%] grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 '>
+            <div className='w-[80%] grid lg:grid-cols-4  md:grid-cols-2 grid-cols-1'>
                 {
                     !search ? items?.map((item, index) => (
                         <motion.div key={index}

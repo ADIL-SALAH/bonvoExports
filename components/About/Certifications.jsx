@@ -58,7 +58,7 @@ function Certifications() {
         </div>
     )
     return (
-        <div className=' flex justify-center items-center   w-full h-full lg:p-20 p-5 bg-slate-300 '>
+        <div className=' flex justify-center items-center   w-full h-full lg:p-20 p-5 bg-slate-200 '>
 
             <Carousal itemsToShow={3} enableAutoPlay breakPoints={breakPoints} renderPagination={customPagination} className='flex justify-center items-center h-[400px] md:w-3/4 w-full'>
                 {

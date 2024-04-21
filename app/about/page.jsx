@@ -17,7 +17,7 @@ function page() {
             <Banner title={bannerHead} text={bannerText} />
             <Who_We_Are />
             <VisionAndMission />
-            <Certifications />
+            {/* <Certifications /> */}
         </div>
     )
 }

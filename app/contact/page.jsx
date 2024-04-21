@@ -4,6 +4,8 @@ import React from 'react'
 import { Formik, } from "formik";
 import { notify } from '@/components/Toaster';
 import toast, { Toaster } from 'react-hot-toast';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function page() {
 
@@ -175,16 +177,36 @@ function page() {
                             <ul className='space-y-10 '>
                                 <li className='space-y-3'>
                                     <h4 className=''>Visit Office:</h4>
-                                    <p >16/110 A.M.S.V Building, Armenian Street, Chennai - 600 001. India</p>
+                                    <p >Building No:17/131/F<br />Pandikashala, Kooriyad, Malappuram, Kerala, India - 676306</p>
                                 </li>
                                 <li className='space-y-3'>
                                     <h4 className='text-xs'>Phone:</h4>
-                                    <p >044-47796783</p>
+                                    <p>
+                                        <a href='tel:+91 81568 66089' >+91 81568 66089 </a >
+                                    </p>
+                                    {/* <p>
+                                        <a href='tel:+91 81378 66089'>+91 81378 66089</a >
+                                    </p> */}
                                 </li>
                                 <li className='space-y-3'>
                                     <h4 className='text-xs'>Email:</h4>
-                                    <p >enquiry@spazeoimpex.com</p>
+                                    <p >bonvoexports@gmail.com</p>
                                 </li>
+                                <li className='space-y-3'>
+                                    <a href="https://www.instagram.com/bonvo_exports?igsh=MXJ2MDc1NGF6MjdheQ==" className='hover:bg-white hover:text-blue-950 rounded-full px-2  py-1 '>
+
+                                        <FontAwesomeIcon icon={faInstagram} />
+                                    </a>
+                                    <a href="https://www.facebook.com/profile.php?id=61557880301331&mibextid=kFxxJD" className='hover:bg-white hover:text-blue-950 rounded-full px-2  py-1  '>
+
+                                        <FontAwesomeIcon icon={faFacebook} />
+                                    </a>
+                                    <a href="http://www.linkedin.com/in/bonvo-exports-69a832302" className='hover:bg-white hover:text-blue-950 rounded-full px-2  py-1 '>
+
+                                        <FontAwesomeIcon icon={faLinkedin} />
+                                    </a>
+                                </li>
+
                             </ul>
                         </div>
 
