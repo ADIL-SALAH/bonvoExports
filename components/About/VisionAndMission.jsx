@@ -2,13 +2,14 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { itemFromLeft, itemFromRight } from '../motionStyles/motions'
+import { itemFromBottom, itemFromLeft, itemFromRight } from '../motionStyles/motions'
 
 function VisionAndMission() {
     return (
         <div className='md:flex lg:space-x-28 md:space-x-10 md:space-y-0 space-y-5 lg:p-20 md:p-10 p-8'>
             <motion.div
-                variants={itemFromLeft}
+                // variants={itemFromLeft}
+                variants={itemFromBottom}
                 initial='hidden'
                 whileInView={'visible'}
                 exit={'hidden'}
@@ -23,7 +24,8 @@ function VisionAndMission() {
                 </div>
             </motion.div>
             <motion.div
-                variants={itemFromRight}
+                // variants={itemFromRight}
+                variants={itemFromBottom}
                 initial='hidden'
                 whileInView={'visible'}
                 exit={'hidden'}

@@ -37,7 +37,7 @@ function Highlights() {
                 items.map((item, index) => (
                     <motion.div
                         key={index}
-                        // variants={itemFromBottom}
+                        variants={itemFromBottom}
                         initial={'hidden'}
                         whileInView={'visible'}
                         custom={index}

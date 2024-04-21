@@ -14,13 +14,13 @@ function Who_We_Are() {
                 whileInView={'visible'}
                 exit={'hidden'}
                 className='flex flex-col justify-center md:w-4/5 space-y-6'>
-
+                {/* 
                 <p className='lg:text-lg text-sm'>
                     Bonvo Exports is a dynamic and forward-thinking startup, dedicated to making a significant impact in the export industry.
                     we are driven by a passion for innovation, quality, and customer satisfaction.
 
 
-                </p>
+                </p> */}
                 <p className='lg:text-lg text-sm'>
                     {/* As a budding startup headquartered in Kooriyad, Malappuram, Kerala, India, Bonvo Exports is poised to revolutionize the export trade sector.
                     Our team comprises talented professionals with diverse expertise and a shared vision for success.

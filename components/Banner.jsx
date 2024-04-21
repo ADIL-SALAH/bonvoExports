@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion'
-import { itemFromLeft, itemFromRight } from './motionStyles/motions';
+import { itemFromBottom, itemFromLeft, itemFromRight } from './motionStyles/motions';
 
 function Banner({ image, title, text }) {
 
@@ -11,6 +11,7 @@ function Banner({ image, title, text }) {
         <div className="bg-[#000000] h-screen opacity-50 flex items-center p-10">
             <motion.div
                 // variants={itemFromLeft}
+                variants={itemFromBottom}
                 initial={'hidden'}
                 whileInView={'visible'}
                 exit={'hidden'}
@@ -20,6 +21,7 @@ function Banner({ image, title, text }) {
             </motion.div>
             <motion.div
                 // variants={itemFromRight}
+                variants={itemFromBottom}
                 initial={'hidden'}
                 whileInView={'visible'}
                 exit={'hidden'}
