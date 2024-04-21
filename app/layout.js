@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <title>Bonvo Exports</title>
         <meta name='description' content='Description' />
       </head>
-      <body className={`${inter.className}  bg-[url(/home/background.jpg)] bg-fixed bg-cover `}>
+      <body className={`${inter.className}  bg-[url(/home/background.jpg)] bg-fixed bg-cover w-screen `}>
         {/* <Toaster /> */}
         <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>

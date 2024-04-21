@@ -38,7 +38,7 @@ function Footer() {
     ]
 
     return (
-        <div className='bg-slate-200 min-h-96  p-5 flex md:flex-row flex-col space-y-10  text-[#1c3e57] items-center justify-around font- '>
+        <div className='bg-slate-200 min-h-96  p-5 flex md:flex-row flex-col space-y-10  text-[#1c3e57] items-center justify-around '>
 
             <div className="flex items-center  text-center">
                 <img className="h-16 rounded-md" src="logo.png" alt="" />
