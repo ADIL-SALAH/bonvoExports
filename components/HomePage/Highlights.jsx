@@ -14,29 +14,30 @@ function Highlights() {
         {
             icon: faMedal,
             title: 'QUALITY',
-            text: `Quality in a service or product is not what you put into it. It is what the customer gets out of it`
+            text: `True quality isn't about what we invest, but rather, what our customers receive. 
+            It's the satisfaction, reliability, and value they experience that truly define the excellence of our service or product.`
         },
         {
             icon: faGaugeHigh,
             title: 'PERFORMANCE',
-            text: `Don’t lower your expectations to meet your performance. Raise your level of performance to meet your expectations`
+            text: `Instead of adjusting expectations downward to match performance, elevate your performance to meet and exceed your expectations.
+             Challenge yourself to continually raise the bar and achieve greatness.`
         },
         {
             icon: faUser,
             title: 'SERVICES',
-            text: `The key is when a customer walks away, thinking, 'Wow, I love doing business with them, and I want to tell others about the experience.`
+            text: `The hallmark of exceptional service lies in leaving customers with a sense of delight and satisfaction. 
+            It's about creating experiences that inspire them to not only return but also enthusiastically recommend our services to others.`
         },
     ]
 
     return (
-        <div
-
-            className={`bg-slate-200 h-96  p-5 md:flex hidden  text-[#1c3e57] items-center justify-around`}>
+        <div className={`bg-slate-200 h-96 p-5 md:flex hidden  text-[#1c3e57] items-center justify-around`}>
             {
                 items.map((item, index) => (
                     <motion.div
                         key={index}
-                        variants={itemFromBottom}
+                        // variants={itemFromBottom}
                         initial={'hidden'}
                         whileInView={'visible'}
                         custom={index}

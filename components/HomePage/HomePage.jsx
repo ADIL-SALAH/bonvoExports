@@ -8,7 +8,7 @@ import Quote from './Quote';
 
 function HomePage() {
     return (
-        <div className=''>
+        <div className='w-screen'>
 
             <Banner
                 image={bannerImage}

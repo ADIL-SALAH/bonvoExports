@@ -12,7 +12,7 @@ function page() {
     Bonvo Exports is poised to revolutionize the export trade sector. Our team comprises talented professionals with diverse expertise and a shared vision for success. 
     We are committed to fostering a culture of creativity, collaboration, and continuous improvement within our organization.`
     return (
-        <div className='min-h-screen w-screen flex flex-col justify-center items-center  font-mono'>
+        <div className='min-h-screen w-screen flex flex-col justify-center items-center  font-'>
             {/* about */}
             <Banner title={bannerHead} text={bannerText} />
             <Who_We_Are />

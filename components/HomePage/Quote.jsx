@@ -19,7 +19,7 @@ function Quote() {
     }
 
     return (
-        <div className='h-96 flex md:flex-row flex-col justify-around items-center lg:p-10 p-10'>
+        <div className='h-96 flex md:flex-row flex-col justify-around items-center lg:p-10 p-10 w-screen'>
             <motion.div
                 variants={itemFromLeft}
                 initial='hidden'

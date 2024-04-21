@@ -16,21 +16,24 @@ function OurProducts() {
         {
             title: 'SPICES EXPORT',
             image: '/home/spices.jpg',
-            desc: `Our expertise lies in the efficient exportation of a diverse range of fruits, 
-            carefully selected and transported to maintain their natural freshness and taste.`
+            desc: `Specializing in spices export, we excel in sourcing and delivering a diverse array of aromatic treasures from the heart of India.
+             With meticulous care, we ensure that each spice retains its inherent freshness and flavor, 
+             promising an exquisite culinary experience for our global clientele.`
         },
 
         {
             title: 'COCONUT EXPORT',
             image: '/home/coco.jpg',
-            desc: `Our expertise lies in the efficient exportation of a diverse range of fruits, 
-            carefully selected and transported to maintain their natural freshness and taste.`
+            desc: `Specializing in coconut export, we pride ourselves on expertly sourcing and delivering a diverse range of premium-quality coconuts. 
+            From selection to transportation, we ensure each coconut maintains its natural freshness and taste, 
+            embodying the essence of tropical indulgence for our valued customers worldwide.`
         },
         {
             title: 'GRAINS EXPORT',
             image: '/home/grains.jpg',
-            desc: `Our expertise lies in the efficient exportation of a diverse range of fruits, 
-            carefully selected and transported to maintain their natural freshness and taste.`
+            desc: `Specializing in grains export, we are dedicated to sourcing and delivering a diverse selection of top-quality grains.
+             Every grain is meticulously chosen and handled to preserve its natural freshness and flavor,
+             ensuring that our customers receive nothing but the finest products for their culinary endeavors.`
         },
         {
             title: 'fresh FRUIT & veg EXPORT',
@@ -50,11 +53,11 @@ function OurProducts() {
     }
 
     return (
-        <div className='space-y-10 bg-black bg-opacity-50 p-5 py-10 md:py-28 flex flex-col items-center '>
+        <div className='space-y-10 bg-black bg-opacity-50 p-8 py-10 md:py-28 flex flex-col items-center '>
             <h1 className='text-center font-bold tracking-[1em] underline underline-offset-8 text-slate-200 md:text-lg '>Our Products</h1>
 
             <motion.div
-                variants={itemFromBottom}
+                // variants={itemFromBottom}
                 initial='hidden'
                 whileInView={'visible'}
                 className='h-full w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10  md:p-5 '>

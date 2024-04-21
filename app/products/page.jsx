@@ -61,8 +61,8 @@ function page() {
             img: '/home/mango.jpg'
         },
         {
-            title: 'coconut',
-            img: '/home/coconut.jpg'
+            title: 'rice flakes',
+            img: '/riceFlakes.jpeg'
         },
         {
             title: 'lemon',

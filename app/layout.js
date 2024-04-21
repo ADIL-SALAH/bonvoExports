@@ -9,7 +9,7 @@ import { PersistGate } from "redux-persist/integration/react";
 import Footer from "@/components/HomePage/Footer";
 import Quote from "@/components/HomePage/Quote";
 import WhatsappButton from "@/components/WhatsappButton";
-import { Toaster } from 'react-hot-toast';
+// import { Toaster } from 'react-hot-toast';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta name='description' content='Description' />
       </head>
       <body className={`${inter.className}  bg-[url(/home/background.jpg)] bg-fixed bg-cover `}>
-        <Toaster />
+        {/* <Toaster /> */}
         <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>
             <Navbar />
