@@ -6,7 +6,7 @@ import WhatsappButton from "@/components/WhatsappButton";
 export default function Home() {
   return (
 
-    <div className=" font-mono">
+    <div className=" ">
 
       <HomePage />
     </div >

@@ -31,7 +31,7 @@ function page() {
     ]
 
     return (
-        <div className='min-h-screen flex justify-center items-center mt-16 font-mono'>
+        <div className='min-h-screen flex justify-center items-center mt-16 bg-transparent'>
             <Toaster />
             <div className='w-[90%]'>
                 {/* <div className="flex justify-center items-center  "> */}
@@ -115,7 +115,7 @@ function page() {
                         {({ values, handleChange, handleSubmit, errors }) => (
                             <form onSubmit={handleSubmit} className="p-10 rounded-2xl shadow-2xl lg:w-2/3">
                                 <div className="flex">
-                                    <h1 className="font-bold uppercase md:text-5xl text-[#fbb500] ">Connect <br /> With Us</h1>
+                                    <h1 className="font-bold uppercase md:text-5xl text-[#fbb500] font-mono">Connect <br /> With Us</h1>
                                 </div>
 
                                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">

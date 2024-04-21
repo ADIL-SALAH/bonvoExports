@@ -46,8 +46,8 @@ function Navbar() {
             <div className='md:flex hidden items-center justify-between p-5 pt-10 lg:px-10'>
 
                 <div className="flex items-center  text-center">
-                    {/* <img className="h-16" src="https://i.ibb.co/6Yxs70d/2021-10-26-23h27-03.png" alt="" /> */}
-                    <span className="ml-4 uppercase text-slate-200 text-sm font-extrabold tracking-[.5em]">Bonvo <br /> <span className='text-[#fbb500]'>exports</span></span>
+                    <img className="h-16 rounded-sm" src="logowyt.png" alt="" />
+                    {/* <span className="ml-4 uppercase text-slate-200 text-sm font-extrabold tracking-[.5em]">Bonvo <br /> <span className='text-[#fbb500]'>exports</span></span> */}
                 </div>
                 <div className=" font-semibold text-[10px]">
                     <ul className="mx-auto flex items-center space-x-10">

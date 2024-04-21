@@ -29,14 +29,12 @@ export default function RootLayout({ children }) {
         <Toaster />
         <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>
-
             <Navbar />
             {children}
             <WhatsappButton />
             <Quote />
             <Footer />
           </PersistGate>
-
         </Provider>
       </body>
     </html>
