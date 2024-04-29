@@ -14,7 +14,7 @@ function HomePage() {
                 image={bannerImage}
                 title="BONVO EXPORTS"
                 text={`Bonvo Exports is a dynamic and forward-thinking startup, dedicated to making a significant impact in the export industry.
-                 Founded recently, we are driven by a passion for innovation, quality, and customer satisfaction. 
+                 We are driven by a passion for innovation, quality, and customer satisfaction. 
                  Despite being a new entrant, we are committed to upholding the highest standards of integrity, accountability,
                   and reliability in all our endeavors.`}
             />

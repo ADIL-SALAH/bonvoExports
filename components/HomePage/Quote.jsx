@@ -28,7 +28,7 @@ function Quote() {
                 exit={'hidden'}
                 className='text-slate-200 text-center md:w-2/3'>
                 <h4>Are you Ready? Get Quote Now!</h4>
-                <h4>Get Your Quote or Call: +91 8137866089</h4>
+                <h4>Get Your Quote or Call: <a href='tel:+91 8156866089' className='text-xl text-yellow-600 hover:underline'>+91 8156866089</a></h4>
             </motion.div>
             <motion.div
                 // variants={itemFromLeft}

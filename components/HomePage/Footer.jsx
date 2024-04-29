@@ -41,7 +41,7 @@ function Footer() {
         <div className='bg-slate-200 min-h-96  p-5 flex md:flex-row flex-col space-y-10  text-[#1c3e57] items-center justify-around '>
 
             <div className="flex items-center  text-center">
-                <img className="h-16 rounded-md" src="logo.png" alt="" />
+                <img className="h-16 rounded-md" src="logowyt 1.png" alt="" />
                 {/* <span className="ml-4 uppercase text-[#1c3e57] font-sans text-[16px] font-extrabold tracking-[.5em]">Bonvo <br /> <span className='text-[#fbb500]'>exports</span></span> */}
             </div>
             <div className='space-y-5 '>
@@ -60,13 +60,13 @@ function Footer() {
                 <h6 className='text-[#fbb500]'>Contact Us</h6>
                 <ul className='space-y-4 text-sm'>
                     <li>
-                        <b>Office Address:</b> No:321, 2nd floor,<br /> Kooriyad, Malappuram, Kerala, India - 676306
+                        <b>Office Address:</b>Building No:17/131/F<br />Pandikashala, Kooriyad, Malappuram, Kerala, India - 676306
                     </li>
                     <li className='space-x-3'>
-                        <FontAwesomeIcon icon={faPhone} /> <span><a href="tel:+91 81378 66089">+91 81378 66089,</a><a href="tel:+91 81568 66089 ">+91 81568 66089 </a></span>
+                        <FontAwesomeIcon icon={faPhone} /> <span><a href="tel:+91 81568 66089">+91 81568 66089 </a></span>
                     </li>
                     <li className='space-x-3'>
-                        <FontAwesomeIcon icon={faEnvelope} /> <a href='mailto: bonvoexports@gmail.com'>+91 81378 66089</a>
+                        <FontAwesomeIcon icon={faEnvelope} /> <a href='mailto: bonvoexports@gmail.com'>bonvoexports@gmail.com</a>
                     </li>
                     <div className='flex space-x-5 text-lg'>
                         <a href="https://www.instagram.com/bonvo_exports?igsh=MXJ2MDc1NGF6MjdheQ==" className='hover:bg-blue-950 hover:text-white rounded-full px-1  '>

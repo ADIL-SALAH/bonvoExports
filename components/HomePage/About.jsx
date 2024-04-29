@@ -26,7 +26,7 @@ function About() {
         <div className=" flex flex-col items-center md:p-10 p-8 ">
             <div className="w-full max-w-6xl rounded  space-y-14 p-10 lg:p-20 mx-auto text-gray-800  md:text-left">
                 <h1 className='text-center font-bold tracking-[1em] underline underline-offset-8 text-slate-200 text-lg  '>OUR STORY</h1>
-                <div className="md:flex items-center -mx-10 lg:space-x-10">
+                <div className="flex md:flex-row flex-col items-center -mx-10 lg:space-x-10">
                     <motion.div
                         // variants={itemFromLeft}
                         variants={itemFromBottom}
@@ -47,7 +47,7 @@ function About() {
                         initial='hidden'
                         whileInView={'visible'}
                         exit={'hidden'}
-                        className={`bg-[#1c3e57] p-8 text-[#ededed] w-full md:w-1/2  px-8 border-l-blue-500 border-l rounded-2xl `}>
+                        className={`bg-[#1c3e57] p-12 md:max-w-full max-w-80 text-[#ededed] w-full md:w-1/2  px-8 border-l-blue-500 border-l rounded-2xl `}>
                         <div className="mb-10">
                             {/* <h1 className="font-bold uppercase text-2xl mb-5">ABOUT US</h1> */}
                             <h1 className="font-bold uppercase md:text-2xl text-lg mb-5">Export Quality  <br />Products</h1>
@@ -56,10 +56,10 @@ function About() {
 
                                 Based in Malappuram, Kerala, India, Bonvo Exports is your premier destination for high-quality Indian products. Specializing in exports of onions, tea, sugar, spices, grains, and more, we are committed to delivering excellence in every shipment.
 
-                                Driven by innovation and customer satisfaction, Bonvo Exports is a dynamic startup with a focus on integrity and reliability. With years of industry experience, we're poised to make a significant impact in the export trade sector.
+                                Driven by innovation and customer satisfaction, Bonvo Exports is a dynamic startup with a focus on integrity and reliability. We're poised to make a significant impact in the export trade sector.
 
                                 Join us as we embark on this exciting journey of global trade. Experience the Bonvo difference today!
-                                <a href="#" className="opacity-50 text-gray-900 hover:opacity-100 inline-block text-xs leading-none border-b border-gray-900">MORE <i className="mdi mdi-arrow-right"></i></a></p>
+                                <a href="#" className="opacity-50 text-gray-900 hover:opacity-100 inline-block text-xs leading-none border-b border-gray-900"></a></p>
                         </div>
                         <div>
                             <div className=" flex text-xs items-center align-bottom mr-5 space-x-5 cursor-pointer" onClick={navigateToAbout}>
