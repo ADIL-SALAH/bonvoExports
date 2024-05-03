@@ -1,9 +1,9 @@
 import Banner from '@/components/Banner'
 import React from 'react'
-import bannerImage from '../../public/home/bnrAbt2.jpg'; // Adjust the path as needed
+// import bannerImage from '../../public/home/bnrAbt2.jpg'; // Adjust the path as needed
 import Who_We_Are from '@/components/About/Who_We_Are';
 import VisionAndMission from '@/components/About/VisionAndMission';
-import Certifications from '@/components/About/Certifications';
+// import Certifications from '@/components/About/Certifications';
 
 function page() {
 
