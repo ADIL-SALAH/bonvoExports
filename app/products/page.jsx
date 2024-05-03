@@ -60,6 +60,10 @@ function page() {
             title: 'puffened rice flakes (pori avil)',
             img: '/riceFlakes.jpeg'
         },
+        {
+            title: 'jackfruit',
+            img: '/home/jf1.jpg'
+        },
 
 
     ]
@@ -107,7 +111,7 @@ function page() {
                             exit={'hidden'}
 
                             onClick={navigateToWhatsapp}>
-
+                            {console.log(item, 'wwwwwwww')}
                             <ProductCard name={item.title} image={item.img} />
                         </motion.div>
 
